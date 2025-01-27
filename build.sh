@@ -1,6 +1,6 @@
 cd docker
 
-git clone https://github.com/SlugSecurity/cage-4.git
+git clone $CAGE4_GITHUB
 cd cage-4
 git switch llm-dev
 cd ..
