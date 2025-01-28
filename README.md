@@ -13,7 +13,7 @@ Create .env file according to the following spec
 
 Set CAGE4_GITHUB environment variable
 
-`export CAGE4_GITHU=<Link to repo>`
+`export CAGE4_GITHUB=<Link to repo>`
 
 ## To build image and run container:
     build.sh && docker run --env-file .env cage-4 
