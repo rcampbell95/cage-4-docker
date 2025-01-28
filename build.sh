@@ -3,6 +3,7 @@ cd docker
 git clone $CAGE4_GITHUB
 cd cage-4
 git switch llm-dev
+git pull
 cd ..
 
 docker image prune

@@ -1,8 +1,5 @@
 FROM python:3.10-bullseye
 
-ENV WANDB_API_KEY=""
-ENV HF_TOKEN=""
-
 COPY /cage-4 /app/cage-4
 COPY /CybORG-4.0-py3-none-any.whl /app/cage-4/CybORG-4.0-py3-none-any.whl
 
